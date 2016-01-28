@@ -108,7 +108,7 @@ If you have a simulation, you should verify that each piece is correct.  You may
 
 "I tested it and it worked fine" is unacceptable.  How about: "I implemented the truth table on my FPGA.  A switch in the up position represents a 1, and in the down position represents a 0.  The video below shows me testing each possible output in the order of the truth table.  You can see that the outut (the LED) is only illuminated in the 3rd and 7th tests, which matches exactly with my truth table above."
 
-Display your results and describe them in detail so that anyone can understand.  For example Figure 1 below shows a screenshot of a memory dump for RAM from 0x0200 to 0x024E.  You will also describe to the reader what they are looking at.
+Display your results and describe them in detail so that anyone can understand.  For example Figure 1 below shows a screenshot of a memory dump for RAM from 0x0200 to 0x024E.  You will also describe to the reader what they are looking at.  "In Figure 1 below, you can see that the memory location 0x200 has a value of 0x00, which is what was expected."
 
 ![Memory Dump](images/Memory.PNG)
 ##### Figure 1: Memory Dump Label (Always include figure labels!)
@@ -117,7 +117,7 @@ Display your results and describe them in detail so that anyone can understand. 
 Here is where you would answer any lab questions given in the lab writeup.
 
 ### Observations and Conclusions
-During this whole assignment, what did you learn?  What did you notice that was noteworthy?  This should be a paragraph starting with the purpose, whether or not you achieved that purpose, what you learned, and how you can use this for future labs.
+During this whole assignment, what did you learn?  What did you notice that was noteworthy?  This should be a paragraph starting with the purpose, whether or not you achieved that purpose, what you learned, and how you can use this for future labs.  If you learned other lessons unintentionally, include them as well.  
 
 ### Documentation
 – always include this.  Any help received on any portion of the assignment, even from an instructor or the internet should be specifically mentioned.
